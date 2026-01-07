@@ -1,0 +1,10 @@
+student = {"name" : "ali", "age" : 18}
+print("before added key:",student)
+student.update({"country" : "iran"})
+print("After added key:",student)
+print("Before change age:",student)
+student.update({"age" : 20})
+print("After change age:",student)
+print("before deleted key:",student)
+student.pop("country")
+print("After deleted key:",student)
